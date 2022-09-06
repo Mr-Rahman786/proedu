@@ -1,0 +1,81 @@
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* navbar section */
+.border-search{
+    border: 1px solid blue;
+    padding: 5px 25px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(106, 106, 238);
+}
+.border-search:hover{
+    background-color:crimson;
+    border: none;
+}
+.probase{
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+.list-nav{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.nav-hover:hover{
+    color: orangered;
+}
+
+/* slider section */
+.position-by{
+    position: absolute;
+    bottom: 40%;
+}
+.image-opacity{
+    opacity: 0.5;
+    /* background-color: rgba(0, 0, 0, 0.502); */
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.get-start{
+    padding: 7px 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+/* media query */
+@media screen and (max-width:576px) {
+    .position-by {
+            position: absolute;
+            top: 5%;
+        }
+        .probase{
+            font-size: 1rem;
+        }
+        .image-opacity{
+            height: 300px;
+        }
+}
+/* courses section start */
+    .title-of-courses{
+        text-align: center;
+    }
+    .paragraph-of-courses{
+        text-align: center;
+    }
+
+
+/* tablet-view */
+@media screen and (min-width:577px) and (max-width:667px) {
+    .position-by {
+            position: absolute;
+            top: 5%;
+        }
+    
+        .probase {
+            font-size: 1rem;
+        }
+    
+        .image-opacity {
+            height: 300px;
+        }
+}
