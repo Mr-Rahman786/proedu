@@ -96,8 +96,33 @@ small {
     background-color: white;
     border-radius:10px ;
 }
-
-
+/* student section */
+.name-student{
+    opacity: 0.3;
+}
+/* feedback */
+.left-arrow{
+    display: block;
+    font-size: 4rem;
+    position: absolute;
+    left: 3.6%;
+    margin-top: 3%;
+    color: rgb(153, 0, 255);
+}
+.right-arrow{
+    font-size: 4rem;
+        position: absolute;
+        right: 3.8%;
+        margin-top: 3%;
+        color: rgb(153, 0, 255);
+}
+.margin-by-feedback{
+    margin-left: 16%;
+    margin-top: 5%;
+}
+.margin-tiny{
+    margin-top: 5%;
+}
 
 
 
@@ -134,24 +159,35 @@ small {
         .img-fluid{
             width: 350px;
         }
+                /* courses section start */
+                .title-of-courses {
+                    text-align: center;
+                }
         
+                .paragraph-of-courses {
+                    text-align: center;
+                    /* display: none; */
+                    font-size: 5px;
+                }
+        
+                .margin-start {
+                    margin-left: 0;
+                }
+        
+                .left-arrow {
+                    display: hide;
+                }
+        
+                .margin-by-feedback {
+                    margin-left: 0;
+                }
+                .right-arrow{
+                    display: none;
+                }
+                .left-arrow{
+                    display: none;
+                }
 }
-/* courses section start */
-    .title-of-courses{
-        text-align: center;
-    }
-    .paragraph-of-courses{
-        text-align: center;
-        /* display: none; */
-        font-size: 5px;
-    }
-.margin-start {
-    margin-left: 0;
-}
-/* forth section */
-/* .registerd-now-main {
-    margin-left: 0;
-} */
 /* ===============================
 ==========tablet-view ===================
 =========================*/
@@ -170,5 +206,8 @@ small {
         }
         .margin-start {
             margin-left: 10%;
+        }
+        .margin-by-feedback {
+            margin-left: 0;
         }
 }
