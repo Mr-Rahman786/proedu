@@ -203,7 +203,7 @@ footer{
 /*====================================
 ================media query==============
 ============================= */
-@media screen and (max-width:576px) {
+@media screen and (max-width:376px) {
     .position-by {
             position: absolute;
             top: 5%;
@@ -272,7 +272,7 @@ footer{
 /* ===============================
 ==========tablet-view ===================
 =========================*/
-@media screen and (min-width:577px) and (max-width:820px) {
+@media screen and (min-width:377px) and (max-width:820px) {
     .position-by {
             position: absolute;
             top: 5%;
