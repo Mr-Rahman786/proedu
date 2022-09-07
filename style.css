@@ -29,6 +29,9 @@
     position: absolute;
     bottom: 40%;
 }
+.carousel-control-prev-icon{
+    color: red;
+}
 .image-opacity{
     opacity: 0.5;
     /* background-color: rgba(0, 0, 0, 0.502); */
@@ -39,6 +42,36 @@
     font-size: 1.5rem;
     color: white;
 }
+
+/* courses section start */
+.title-of-courses {
+    text-align: center;
+}
+
+.paragraph-of-courses {
+    text-align: center;
+    
+}
+.margin-start{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54,6 +87,11 @@
         .image-opacity{
             height: 300px;
         }
+        /* corses */
+        .img-fluid{
+            width: 350px;
+        }
+        
 }
 /* courses section start */
     .title-of-courses{
@@ -61,11 +99,25 @@
     }
     .paragraph-of-courses{
         text-align: center;
+        /* display: none; */
+        font-size: 5px;
     }
+.margin-start {
+    margin-left: 0;
+}
+.see-more-Corses{
+    padding: 10px 40px ;
+    font-size: 1.2rem;
+    background-color: rgb(77, 77, 231);
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
 
 
 /* tablet-view */
-@media screen and (min-width:577px) and (max-width:667px) {
+@media screen and (min-width:577px) and (max-width:820px) {
     .position-by {
             position: absolute;
             top: 5%;
@@ -77,5 +129,8 @@
     
         .image-opacity {
             height: 300px;
+        }
+        .margin-start {
+            margin-left: 10%;
         }
 }
