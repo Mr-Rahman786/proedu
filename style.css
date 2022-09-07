@@ -124,7 +124,10 @@ small {
     margin-top: 5%;
 }
 
-
+/* accordian section */
+.main-width-fixed{
+    width: 50%;
+}
 
 
 
@@ -187,6 +190,14 @@ small {
                 .left-arrow{
                     display: none;
                 }
+                /* accoridans */
+                .main-width-fixed {
+                    width: 100%;
+                }
+                /* lasts section */
+                .compnay-hide img{
+                    display: none;
+                }
 }
 /* ===============================
 ==========tablet-view ===================
@@ -209,5 +220,12 @@ small {
         }
         .margin-by-feedback {
             margin-left: 0;
+        }
+                /* accoridans */
+        .main-width-fixed {
+            width: 100%;
+        }
+        .compnay-hide img{
+            display: none;
         }
 }
