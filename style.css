@@ -80,7 +80,7 @@ small {
 }
 .explore-clierence{
     font-family: 'Lobster',
-            cursive;
+    cursive;
 }
 .lates-background {
     background-color: rgb(199, 241, 234);
@@ -251,6 +251,9 @@ footer{
                     width: 100%;
                 }
                 /* lasts section */
+                .trusted-section-main{
+                    display: none;
+                }
                 .compnay-hide img{
                     display: none;
                 }
@@ -289,6 +292,7 @@ footer{
             margin-left: 0;
         }
                 /* accoridans */
+                
         .main-width-fixed {
             width: 100%;
         }
@@ -300,5 +304,8 @@ footer{
         }
         .anchor-items {
             margin-left: 30%;
+        }
+        .trusted-section-main h1 {
+            display: none;
         }
 }
