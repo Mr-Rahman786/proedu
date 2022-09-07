@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.form-main{
+    margin-top: 5%;
+    background-color: rgb(13, 110, 253);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.button-by-form{
+    padding: 15px 10px ;
+    background-color:crimson;
+    color: white;
+}
+.form-header{
+    font-family: 'Lobster', cursive;
+}
+.submit-btn{
+    padding: 6px 60px;
+    border: none;
+    background-color: rgb(255, 0, 174);
+    color: white;
+    border-radius: 10px;
+}
