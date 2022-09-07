@@ -1,5 +1,8 @@
 /* google-fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster',
+cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 /* navbar section */
 .border-search{
     border: 1px solid blue;
@@ -46,6 +49,7 @@
 /* courses section start */
 .title-of-courses {
     text-align: center;
+    font-family: 'Lobster',cursive;
 }
 
 .paragraph-of-courses {
@@ -74,7 +78,10 @@
 small {
     opacity: 0.4;
 }
-
+.explore-clierence{
+    font-family: 'Lobster',
+            cursive;
+}
 .lates-background {
     background-color: rgb(199, 241, 234);
 }
@@ -84,6 +91,10 @@ small {
     background-color: rgb(13, 110, 253);
     color: white;
     margin-top: 10%;
+}
+.redy-by-title{
+    font-family: 'Lobster',
+            cursive;
 }
 .registerd-now a {
     text-decoration: none;
@@ -123,18 +134,63 @@ small {
 .margin-tiny{
     margin-top: 5%;
 }
-
+.meetin{
+    padding: 3%;
+    color: crimson;
+    font-family: 'Lobster',
+            cursive;
+}
 /* accordian section */
 .main-width-fixed{
     width: 50%;
 }
 
 
-
-
-
-
-
+/* last section */
+.trusted-section{
+    text-align: center;
+    font-family: 'Lobster',cursive;
+}
+.spanded{
+    color: orangered;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+/* footer-section */
+footer{
+    height: 230px;
+    background-color: black;
+    padding: 10px;
+}
+.footer-name{
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+.footer-paragraph{
+    text-align: center;
+    color: blue;
+}
+.anchor-items{
+    margin-left: 40%;
+}
+.anchor-privacy{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.iconies {
+    font-size: 2rem;
+    color: white;
+    padding: 2%;
+}
+.iconies:hover{
+    color: red;
+}
+.icons-main{
+    margin-left: 40%;
+}
 
 
 
@@ -198,6 +254,17 @@ small {
                 .compnay-hide img{
                     display: none;
                 }
+                /* footer */
+                .anchor-items {
+                    margin-left: 10%;
+                }
+                .iconies{
+                    padding: 2%;
+                }
+                .icons-main {
+                    margin-left: 25%;
+                }
+                
 }
 /* ===============================
 ==========tablet-view ===================
@@ -227,5 +294,11 @@ small {
         }
         .compnay-hide img{
             display: none;
+        }
+        .icons-main {
+            margin-left: 35%;
+        }
+        .anchor-items {
+            margin-left: 30%;
         }
 }
